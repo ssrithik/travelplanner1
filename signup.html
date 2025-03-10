@@ -189,7 +189,7 @@
   
       if (newPassword === confirmPassword) {
         try {
-          const response = await fetch('/signup', {
+          const response = await fetch('https://travelplanner-48z5.onrender.com/signup', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
